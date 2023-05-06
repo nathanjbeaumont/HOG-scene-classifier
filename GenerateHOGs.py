@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 from skimage.feature import hog
-from skimage import data, exposure
 import numpy as np
 
 database_path = Path(__file__).parents[1] / 'archive'
